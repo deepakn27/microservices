@@ -1,0 +1,10 @@
+<aspectj>
+	<weaver>
+		<include within="com.aop.controller.*" />		
+	</weaver>
+	<aspect>
+		<aspect name = "com.aop.aspect.CommonAspect" />
+		
+	</aspect>
+
+</aspectj>
